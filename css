@@ -1,0 +1,167 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(197, 133, 14);
+    background-image: url("background image.webp");
+}
+.navbar{
+    height: 70px;
+    background-color:rgba(51, 32, 32, 0.892);
+    color: white;
+    text-align: ccenter;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+}
+    .box {
+
+   height:400px;
+    width: 29%;
+    background-color: burlywood;
+    margin:0px;
+    border-radius: 4%;
+    margin-left: 50px;
+    padding-left:50px;
+    display: flex;
+  
+    
+   
+}
+.box1{
+     width: 29%;
+    height: 400px;
+    background-color: burlywood;
+    margin:0px;
+     margin-left: 50px;
+    padding-left:50px;
+    display: flex;
+    border-radius:4%;
+  
+    
+    
+   
+}
+.container{
+    display:flex;
+    margin-left: 20px;
+    margin:30px;
+    justify-content:space-evenly;
+}
+.box-img{
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+    width: 100%;
+    border-radius:4%;
+
+   
+}
+
+box h2{
+color: whitesmoke
+   ;
+    
+}
+
+
+.box1 p{
+    color:black;
+    height:50px;
+   
+}
+
+
+
+
+
+
+
+
+.box1 {
+  width: 29%;
+  height: 400px;
+  background-color: burlywood;
+  margin: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.result-box {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 50%;
+  max-width: 220px;
+  margin-left: 20px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.result-box h3 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.result-box p {
+  margin: 6px 0;
+  font-size: 12px;
+  color: #333;
+  line-height: 1.3;
+}
+
+.result-box p strong {
+  font-weight: bold;
+}
+
+.disease-name {
+  font-size: 14px;
+  color: #000000;
+  font-weight: normal;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 12px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #2e7d32;
+  width: 89%;
+  border-radius: 5px 0 0 5px;
+}
+
+.progress-remaining {
+  flex: 1;
+  height: 100%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4px;
+}
+
+.confidence-value {
+  font-size: 10px;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+
+
